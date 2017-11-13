@@ -52,8 +52,8 @@ if __name__ == "__main__":
     sendemail(from_addr    = emailuser, 
               to_addr_list = [emailrec],
               cc_addr_list = [emailcc], 
-              subject      = 'KrisSystemEmail', 
-              message      = 'It Finally Works \n', 
+              subject      = 'Test System Email', 
+              message      = 'Testing \n', 
               login        = emailuser, 
               password     = emailpwd)
 
